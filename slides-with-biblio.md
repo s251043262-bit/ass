@@ -129,6 +129,21 @@ The work done $W$ is positive when the system expands against an external pressu
 :::
 ::::
 
+## Boxplots of Part Resistance
+
+<div class="grid-container">
+
+### Part Resistance by Machine
+<iframe data-src='media/plots/boxplot_resistance_by_machine.html' width='100%' height='400px' style='border:none;'></iframe>
+
+### Part Resistance by Temperature
+<iframe data-src='media/plots/boxplot_resistance_by_temperature.html' width='100%' height='400px' style='border:none;'></iframe>
+
+### Part Resistance by Pressure
+<iframe data-src='media/plots/boxplot_resistance_by_pressure.html' width='100%' height='400px' style='border:none;'></iframe>
+
+</div>
+
 ---
 # Bibliography
 <div id="refs"></div>
