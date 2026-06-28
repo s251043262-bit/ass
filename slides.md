@@ -90,6 +90,9 @@ The work done $W$ is positive when the system expands against an external pressu
 :::
 ::::
 
+
+---
+
 ## Boxplots of Part Resistance
 
 <div class="grid-container">
@@ -104,3 +107,56 @@ The work done $W$ is positive when the system expands against an external pressu
 <iframe data-src='media/plots/boxplot_resistance_by_pressure.html' width='100%' height='400px' style='border:none;'></iframe>
 
 </div>
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### New Analysis Slide
+**Key Observations:**
+- Significant correlation between Temperature and Part Resistance.
+- Machine 1 shows consistent performance across pressure ranges.
+- Further investigation into interaction terms recommended.
+:::
+
+::: {.column width="50%"}
+<!-- Placeholder for media (Image, Video, or Iframe) -->
+![](media/pics/sample.png)
+:::
+::::
+
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### New Analysis Slide
+**Key Observations:**
+- Significant correlation between Temperature and Part Resistance.
+- Machine 1 shows consistent performance across pressure ranges.
+- Further investigation into interaction terms recommended.
+:::
+
+::: {.column width="50%"}
+<!-- Placeholder for media (Image, Video, or Iframe) -->
+![](media/pics/sample.png)
+:::
+::::
+
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### New Analysis Slide
+**Key Observations:**
+- Significant correlation between Temperature and Part Resistance.
+- Machine 1 shows consistent performance across pressure ranges.
+- Further investigation into interaction terms recommended.
+:::
+
+::: {.column width="50%"}
+<!-- Placeholder for media (Image, Video, or Iframe) -->
+![](media/pics/sample.png)
+:::
+::::
