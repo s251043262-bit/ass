@@ -84,4 +84,7 @@ hash: true
 <iframe data-src='media/plots/boxplot_resistance_by_pressure.html' width='100%' height='500px' style='border:none;'></iframe>
 :::
 ::::
-\n---\n# Bibliography\n<div id=\"refs\"></div>\n
+
+---
+# Bibliography
+<div id="refs"></div>

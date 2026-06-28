@@ -24,7 +24,26 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@4/dist/theme/serif.css" id="theme">
   <button id="nav-btn" onclick="toggleNavMenu()" title="Open Slide List">📋 MENU</button>
 
@@ -539,33 +558,27 @@
     <div class="slides">
 
 
-<section class="slide level3">
+<section class="slide level1">
 
-</section>
 <div class="columns">
 <div class="column" style="width:50%;">
-<section>
-<section id="statistical-analysis-of-part-resistance"
-class="title-slide slide level2">
-<h2>Statistical Analysis of Part Resistance</h2>
-
-</section>
+<h2 id="statistical-analysis-of-part-resistance">Statistical Analysis of
+Part Resistance</h2>
 <h4 id="machine-analysis-report">Machine Analysis Report</h4>
 <h4 id="universiti-malaysia-perlis">Universiti Malaysia Perlis</h4>
 <h4 id="leong-xin-yi">LEONG XIN YI</h4>
 <h4
-id="s251043262studentmail.unimap.edu.my">s251043262@studentmail.unimap.edu.my</h4></section>
+id="s251043262studentmail.unimap.edu.my">s251043262@studentmail.unimap.edu.my</h4>
 </div><div class="column" style="width:50%;">
 <p><img data-src="media/pics/logo1.png" /></p>
 </div>
 </div>
-<section class="slide level3">
-
 </section>
+<section class="slide level1">
+
 <div class="columns">
 <div class="column" style="width:50%;">
-<section id="resistance-by-machine" class="slide level3">
-<h3>Resistance by Machine</h3>
+<h3 id="resistance-by-machine">Resistance by Machine</h3>
 <p><strong>1. Machine Baseline Analysis:</strong></p>
 <ul>
 <li><p><strong>Target:</strong> Machine 1 Consistency.</p></li>
@@ -574,19 +587,17 @@ id="s251043262studentmail.unimap.edu.my">s251043262@studentmail.unimap.edu.my</h
 <li><p><strong>Context:</strong> The analysis focuses on ensuring
 Machine 1 operates within specified tolerances.</p></li>
 </ul>
-</section>
 </div><div class="column" style="width:50%;">
 <iframe data-src="media/plots/boxplot_resistance_by_machine.html" width="100%" height="500px" style="border:none;">
 </iframe>
 </div>
 </div>
-<section class="slide level3">
-
 </section>
+<section class="slide level1">
+
 <div class="columns">
 <div class="column" style="width:50%;">
-<section id="resistance-by-temperature" class="slide level3">
-<h3>Resistance by Temperature</h3>
+<h3 id="resistance-by-temperature">Resistance by Temperature</h3>
 <p><strong>2. Significant Driver Identification:</strong></p>
 <ul>
 <li><p><strong>ANOVA p-value:</strong> ≈ 0.0000</p></li>
@@ -595,19 +606,17 @@ significant factor</strong> affecting Part Resistance.</p></li>
 <li><p>Higher temperatures lead to a distinct upward shift in resistance
 levels.</p></li>
 </ul>
-</section>
 </div><div class="column" style="width:50%;">
 <iframe data-src="media/plots/boxplot_resistance_by_temperature.html" width="100%" height="500px" style="border:none;">
 </iframe>
 </div>
 </div>
-<section class="slide level3">
-
 </section>
+<section class="slide level1">
+
 <div class="columns">
 <div class="column" style="width:50%;">
-<section id="resistance-by-pressure" class="slide level3">
-<h3>Resistance by Pressure</h3>
+<h3 id="resistance-by-pressure">Resistance by Pressure</h3>
 <p><strong>3. Secondary Factor Analysis:</strong></p>
 <ul>
 <li><p><strong>ANOVA p-value:</strong> 0.8970</p></li>
@@ -618,16 +627,18 @@ Significant).</p></li>
 <li><p>Findings suggest pressure settings do not require adjustment for
 resistance stability.</p></li>
 </ul>
-</section>
 </div><div class="column" style="width:50%;">
 <iframe data-src="media/plots/boxplot_resistance_by_pressure.html" width="100%" height="500px" style="border:none;">
 </iframe>
 </div>
 </div>
-—# Bibliography
-<div id="\&quot;refs\&quot;">
+</section>
+<section id="bibliography" class="slide level1">
+<h1>Bibliography</h1>
+<div id="refs" role="list">
 
 </div>
+</section>
     </div>
   </div>
 
@@ -787,7 +798,7 @@ resistance stability.</p></li>
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: \"90%\",
+        width: "90%",
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
