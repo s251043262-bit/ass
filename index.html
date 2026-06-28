@@ -566,6 +566,7 @@
 Part Resistance</h2>
 <h4 id="machine-analysis-report">Machine Analysis Report</h4>
 <h4 id="universiti-malaysia-perlis">Universiti Malaysia Perlis</h4>
+<h4 id="leong-xin-yi">LEONG XIN YI</h4>
 <h4
 id="s251043262studentmail.unimap.edu.my">s251043262@studentmail.unimap.edu.my</h4>
 </div><div class="column" style="width:50%;">
@@ -578,10 +579,11 @@ id="s251043262studentmail.unimap.edu.my">s251043262@studentmail.unimap.edu.my</h
 <div class="columns">
 <div class="column" style="width:50%;">
 <h3 id="resistance-by-machine">Resistance by Machine</h3>
-<p><strong>Statistical Analysis:</strong> - <strong>Machine 1
-Average:</strong> 5.3712 - <strong>Observation:</strong> Analysis
-focuses on Machine 1 performance consistency. - Distribution shows
-variance across different operational units.</p>
+<p><strong>1. Machine Baseline Analysis:</strong> -
+<strong>Target:</strong> Machine 1 Consistency. -
+<strong>Finding:</strong> Machine 1 Average Resistance is
+<strong>5.3712</strong>. - <strong>Context:</strong> The analysis
+focuses on ensuring Machine 1 operates within specified tolerances.</p>
 </div><div class="column" style="width:50%;">
 <iframe data-src="media/plots/boxplot_resistance_by_machine.html" width="100%" height="500px" style="border:none;">
 </iframe>
@@ -593,11 +595,11 @@ variance across different operational units.</p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <h3 id="resistance-by-temperature">Resistance by Temperature</h3>
-<p><strong>Statistical Analysis:</strong> -
-<strong>Significance:</strong> p-value ≈ 0.0000 -
-<strong>Result:</strong> Temperature is <strong>highly
-significant</strong> in affecting Part Resistance. - Higher temperature
-levels correlate with noticeable shifts in resistance distribution.</p>
+<p><strong>2. Significant Driver Identification:</strong> -
+<strong>ANOVA p-value:</strong> ≈ 0.0000 - <strong>Conclusion:</strong>
+Temperature is the <strong>primary significant factor</strong> affecting
+Part Resistance. - Higher temperatures lead to a distinct upward shift
+in resistance levels.</p>
 </div><div class="column" style="width:50%;">
 <iframe data-src="media/plots/boxplot_resistance_by_temperature.html" width="100%" height="500px" style="border:none;">
 </iframe>
@@ -609,11 +611,12 @@ levels correlate with noticeable shifts in resistance distribution.</p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <h3 id="resistance-by-pressure">Resistance by Pressure</h3>
-<p><strong>Statistical Analysis:</strong> -
-<strong>Significance:</strong> p-value = 0.8970 -
-<strong>Result:</strong> Pressure is <strong>not statistically
-significant</strong> for Machine 1. - **Interaction (P*T):** p-value =
-0.7349 (Not Significant).</p>
+<p><strong>3. Secondary Factor Analysis:</strong> - <strong>ANOVA
+p-value:</strong> 0.8970 - <strong>Conclusion:</strong> Pressure is
+<strong>not statistically significant</strong> for Machine 1. -
+**Interaction (P*T):** p-value = 0.7349 (Not Significant). - Findings
+suggest pressure settings do not require adjustment for resistance
+stability.</p>
 </div><div class="column" style="width:50%;">
 <iframe data-src="media/plots/boxplot_resistance_by_pressure.html" width="100%" height="500px" style="border:none;">
 </iframe>

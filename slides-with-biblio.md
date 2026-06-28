@@ -16,6 +16,7 @@ hash: true
 ## Statistical Analysis of Part Resistance
 #### Machine Analysis Report
 #### Universiti Malaysia Perlis
+#### LEONG XIN YI
 #### s251043262@studentmail.unimap.edu.my
 
 :::
@@ -30,10 +31,10 @@ hash: true
 :::: {.columns}
 ::: {.column width="50%"}
 ### Resistance by Machine
-**Statistical Analysis:**
-- **Machine 1 Average:** 5.3712
-- **Observation:** Analysis focuses on Machine 1 performance consistency.
-- Distribution shows variance across different operational units.
+**1. Machine Baseline Analysis:**
+- **Target:** Machine 1 Consistency.
+- **Finding:** Machine 1 Average Resistance is **5.3712**.
+- **Context:** The analysis focuses on ensuring Machine 1 operates within specified tolerances.
 :::
 
 ::: {.column width="50%"}
@@ -46,10 +47,10 @@ hash: true
 :::: {.columns}
 ::: {.column width="50%"}
 ### Resistance by Temperature
-**Statistical Analysis:**
-- **Significance:** p-value ≈ 0.0000
-- **Result:** Temperature is **highly significant** in affecting Part Resistance.
-- Higher temperature levels correlate with noticeable shifts in resistance distribution.
+**2. Significant Driver Identification:**
+- **ANOVA p-value:** ≈ 0.0000
+- **Conclusion:** Temperature is the **primary significant factor** affecting Part Resistance.
+- Higher temperatures lead to a distinct upward shift in resistance levels.
 :::
 
 ::: {.column width="50%"}
@@ -62,10 +63,11 @@ hash: true
 :::: {.columns}
 ::: {.column width="50%"}
 ### Resistance by Pressure
-**Statistical Analysis:**
-- **Significance:** p-value = 0.8970
-- **Result:** Pressure is **not statistically significant** for Machine 1.
+**3. Secondary Factor Analysis:**
+- **ANOVA p-value:** 0.8970
+- **Conclusion:** Pressure is **not statistically significant** for Machine 1.
 - **Interaction (P*T):** p-value = 0.7349 (Not Significant).
+- Findings suggest pressure settings do not require adjustment for resistance stability.
 :::
 
 ::: {.column width="50%"}
