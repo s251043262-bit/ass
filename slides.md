@@ -75,7 +75,7 @@ hash: true
 
 - **Conclusion:** Pressure is **not statistically significant** for Machine 1.
 
-- **Interaction (P*T):** **p-value = 0.7349 (Not Significant)**
+- **Interaction (P &times; T):** **p-value = 0.7349 (Not Significant)**
 
 - Findings suggest pressure settings do not require adjustment for resistance stability.
 :::
